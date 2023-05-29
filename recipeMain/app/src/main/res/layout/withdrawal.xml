@@ -1,0 +1,197 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/login_home" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_login_home_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__login_home_ek2"
+					android:layout_width="360dp"
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_home_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/down_bar"
+					android:layout_width="360dp"
+					android:layout_height="74dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="568.66dp"
+					android:contentDescription="down_bar"
+					android:src="@drawable/down_bar" />
+
+				<ImageView
+					android:id="@+id/upbar1"
+					android:layout_width="360dp"
+					android:layout_height="67dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-2dp"
+					android:contentDescription="upbar1"
+					android:src="@drawable/upbar1" />
+
+
+				<RelativeLayout android:id="@+id/search_icon"
+					android:layout_marginTop="69.66dp"
+					android:layout_marginStart="316dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+				<RelativeLayout android:id="@+id/home_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="80dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/home_logo1"
+						android:layout_width="46dp"
+						android:layout_height="match_parent"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/home_logo" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/recipe_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="180dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/recipe_logo1"
+						android:layout_width="42dp"
+						android:layout_height="match_parent"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/recipe_logo" />
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/mypage_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="270dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/mypage_logo1"
+						android:layout_width="42dp"
+						android:layout_height="match_parent"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/mypage_logo" />
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/yormot_text"
+					android:layout_width="83dp"
+					android:layout_height="40dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="152dp"
+					android:layout_marginTop="14dp"
+					android:gravity="top"
+					android:text="@string/yormot_text"
+					android:textAppearance="@style/yormot_text" />
+
+				<View
+					android:id="@+id/insert_rec"
+					android:layout_width="287dp"
+					android:layout_height="36dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="36dp"
+					android:layout_marginTop="105dp"
+					android:background="@drawable/insert_rec" />
+
+				<TextView
+					android:id="@+id/some_id"
+					android:layout_width="67dp"
+					android:layout_height="22dp"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="36dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="78dp"
+					android:text="@string/password"
+					android:textAppearance="@style/password"
+					android:gravity="top"
+					/>
+				<View
+					android:id="@+id/rectangle_6"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="36dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="169dp"
+					android:background="@drawable/checkbox"
+					/>
+				<TextView
+					android:id="@+id/some_id"
+					android:layout_width="210dp"
+					android:layout_height="30dp"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="79dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="170dp"
+					android:text="@string/agree"
+					android:textAppearance="@style/agree"
+					android:gravity="top"
+					/>
+				<View
+					android:id="@+id/rectangle_6"
+					android:layout_width="287dp"
+					android:layout_height="47dp"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="36dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="211dp"
+					android:background="@drawable/button"
+					/>
+				<TextView
+					android:id="@+id/some_id"
+					android:layout_width="72dp"
+					android:layout_height="22dp"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="146dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="224dp"
+					android:text="@string/withdrawalbutton"
+					android:textAppearance="@style/withdrawalbutton"
+					android:gravity="top"
+					/>
+
+
+
+
+
+
+
+			</RelativeLayout>
+		</RelativeLayout>
+	</ScrollView>
+</HorizontalScrollView>

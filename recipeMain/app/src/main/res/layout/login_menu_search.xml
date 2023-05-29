@@ -1,0 +1,139 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/login_home" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_login_home_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__login_home_ek2"
+					android:layout_width="360dp"
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_home_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/upbar1"
+					android:layout_width="360dp"
+					android:layout_height="67dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-2dp"
+					android:contentDescription="upbar1"
+					android:src="@drawable/upbar1" />
+
+				<View   android:id="@+id/upbar2"
+					android:background="@drawable/upbar2_shape"
+					 android:layout_marginStart="-1dp"
+					android:layout_marginTop="64.66dp"
+					android:layout_width="360dp"
+					android:layout_height="44dp" />
+
+				<View   android:id="@+id/search_bar"
+					android:background="@drawable/search_bar_shape"
+					 android:layout_marginStart="57dp"
+					android:layout_marginTop="69.66dp"
+					android:layout_width="244dp"
+					android:layout_height="36dp" />
+
+
+				<RelativeLayout android:id="@+id/search_icon"
+					android:layout_marginTop="69.66dp"
+					android:layout_marginStart="316dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/search_icon" />
+
+				</RelativeLayout>
+
+
+				<ImageView android:id="@+id/login"
+					android:src="@drawable/login"
+					android:contentDescription="login"
+					 android:layout_marginStart="10dp"
+					android:layout_marginTop="68.66dp"
+					android:layout_width="35dp"
+					android:layout_height="35dp" />
+
+				<TextView
+					android:id="@+id/id"
+					android:layout_width="10dp"
+					android:layout_height="12dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="78dp"
+					android:gravity="top"
+					android:text="@string/id"
+					android:textAppearance="@style/id" />
+
+
+				<!-- food_name -->
+
+				<!-- level -->
+
+				<!-- 30분 -->
+
+				<!-- 300 kcal -->
+
+
+				<RelativeLayout android:id="@+id/home_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="80dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<RelativeLayout android:id="@+id/recipe_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="180dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<RelativeLayout android:id="@+id/mypage_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="270dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+				<TextView
+					android:id="@+id/yormot_text"
+					android:layout_width="83dp"
+					android:layout_height="40dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="152dp"
+					android:layout_marginTop="14dp"
+					android:gravity="top"
+					android:text="@string/yormot_text"
+					android:textAppearance="@style/yormot_text" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

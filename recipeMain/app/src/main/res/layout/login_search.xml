@@ -1,0 +1,224 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/login_home" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_login_home_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__login_home_ek2"
+					android:layout_width="360dp"
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_home_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/down_bar"
+					android:layout_width="360dp"
+					android:layout_height="74dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="568.66dp"
+					android:contentDescription="down_bar"
+					android:src="@drawable/down_bar" />
+
+				<ImageView
+					android:id="@+id/upbar1"
+					android:layout_width="360dp"
+					android:layout_height="67dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-2dp"
+					android:contentDescription="upbar1"
+					android:src="@drawable/upbar1" />
+
+				<View   android:id="@+id/upbar2"
+					android:background="@drawable/upbar2_shape"
+					 android:layout_marginStart="-1dp"
+					android:layout_marginTop="64.66dp"
+					android:layout_width="360dp"
+					android:layout_height="44dp" />
+
+				<View
+					android:id="@+id/search_bar"
+					android:layout_width="244dp"
+					android:layout_height="36dp"
+					android:layout_marginStart="57dp"
+					android:layout_marginTop="69.66dp"
+					android:background="@drawable/search_bar_shape" />
+
+
+				<RelativeLayout android:id="@+id/search_icon"
+					android:layout_marginTop="69.66dp"
+					android:layout_marginStart="316dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<ImageView android:id="@+id/login"
+					android:src="@drawable/login"
+					android:contentDescription="login"
+					 android:layout_marginStart="10dp"
+					android:layout_marginTop="68.66dp"
+					android:layout_width="35dp"
+					android:layout_height="35dp" />
+
+				<!-- ID -->
+
+
+				<TextView
+					android:id="@+id/id"
+					android:layout_width="10dp"
+					android:layout_height="12dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="23dp"
+					android:layout_marginTop="78dp"
+					android:gravity="top"
+					android:text="@string/id"
+					android:textAppearance="@style/id" />
+
+				<RelativeLayout android:id="@+id/home_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="80dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageButton
+						android:id="@+id/home_logo1"
+						android:layout_width="46dp"
+						android:layout_height="match_parent"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/home_logo" />
+					/>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/recipe_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="180dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageButton
+						android:id="@+id/recipe_logo1"
+						android:layout_width="42dp"
+						android:layout_height="match_parent"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/recipe_logo" />
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/mypage_logo"
+					android:layout_marginTop="578dp"
+					android:layout_marginStart="270dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageButton
+						android:id="@+id/mypage_logo1"
+						android:layout_width="42dp"
+						android:layout_height="match_parent"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/mypage_logo" />
+
+				</RelativeLayout>
+
+				<!-- yormot_text -->
+
+				<TextView
+					android:id="@+id/yormot_text"
+					android:layout_width="83dp"
+					android:layout_height="40dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="152dp"
+					android:layout_marginTop="14dp"
+					android:gravity="top"
+					android:text="@string/yormot_text"
+					android:textAppearance="@style/yormot_text" />
+
+				<View
+					android:id="@+id/polygon_1"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="310dp"
+					android:layout_marginTop="70dp"
+					android:background="@drawable/ic_polygon_1" />
+
+				<View
+					android:id="@+id/rectangle5"
+					android:layout_width="304dp"
+					android:layout_height="52dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="28dp"
+					android:layout_marginTop="200dp"
+					android:background="@drawable/rectangle_4" />
+
+				<TextView
+					android:id="@+id/some_id2"
+					android:layout_width="147dp"
+					android:layout_height="24dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="109dp"
+					android:layout_marginTop="212dp"
+					android:gravity="center_horizontal|top"
+					android:text="@string/some_id"
+					android:textAppearance="@style/some_id" />
+
+				<View
+					android:id="@+id/rectangle_4"
+					android:layout_width="304dp"
+					android:layout_height="52dp"
+					android:layout_alignParentLeft="true"
+					android:layout_marginLeft="28dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="300dp"
+					android:background="@drawable/rectangle_4"
+					/>
+
+				<TextView
+					android:id="@+id/some_id"
+					android:layout_width="147dp"
+					android:layout_height="24dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="109dp"
+					android:layout_marginTop="312dp"
+					android:gravity="center_horizontal|top"
+					android:text="@string/some_id"
+					android:textAppearance="@style/some_id" />
+
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

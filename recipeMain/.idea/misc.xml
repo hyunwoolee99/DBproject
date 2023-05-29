@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_login_home.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/checkbox.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/down_bar.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/home_logo.xml" value="0.1395" />
+        <entry key="app/src/main/res/drawable/insert_rec.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/polygon_1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rectangle_4.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/create_account.xml" value="0.60546875" />
+        <entry key="app/src/main/res/layout/layout.xml" value="0.3263888888888889" />
+        <entry key="app/src/main/res/layout/login_bookmark.xml" value="0.24504504504504504" />
+        <entry key="app/src/main/res/layout/login_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/login_menu_search.xml" value="0.24296875" />
+        <entry key="app/src/main/res/layout/login_search.xml" value="0.2731707317073171" />
+        <entry key="app/src/main/res/layout/loginout_home.xml" value="0.3511154174804688" />
+        <entry key="app/src/main/res/layout/personalcategory.xml" value="0.24296875" />
+        <entry key="app/src/main/res/layout/search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/withdrawal.xml" value="0.24296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

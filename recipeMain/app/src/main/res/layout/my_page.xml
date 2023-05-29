@@ -1,0 +1,214 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		untitled
+     *	@date 		1653379695405
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/login_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_login_home_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <View
+                    android:id="@+id/_bg__login_home_ek2"
+                    android:layout_width="360dp"
+                    android:layout_height="640dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__login_home_ek2_shape" />
+
+                <View
+                    android:id="@+id/rectangle_3"
+                    android:layout_width="360dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="65dp"
+                    android:background="@drawable/rectangle_40_shape" />
+
+
+                <Button
+                    android:id="@+id/some_id"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="82dp"
+                    android:background="@drawable/login"
+                    android:gravity="center"
+                    android:text="ID" />
+
+                <Button
+                    android:id="@+id/bookmark_B"
+                    android:layout_width="360dp"
+                    android:layout_height="52dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="208dp"
+                    android:background="@drawable/rectangle_61"
+                    android:text="북마크"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/category_B"
+                    android:layout_width="360dp"
+                    android:layout_height="52dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="260dp"
+                    android:background="@drawable/rectangle_61"
+                    android:text="개인 카테고리"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/service_B"
+                    android:layout_width="360dp"
+                    android:layout_height="52dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="312dp"
+                    android:background="@drawable/rectangle_61"
+                    android:text="북마크"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/delete_B"
+                    android:layout_width="360dp"
+                    android:layout_height="52dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="364dp"
+                    android:background="@drawable/rectangle_61"
+                    android:text="회원 탈퇴"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/down_bar"
+                    android:layout_width="360dp"
+                    android:layout_height="74dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="568.66dp"
+                    android:contentDescription="down_bar"
+                    android:src="@drawable/down_bar" />
+
+                <ImageView
+                    android:id="@+id/upbar1"
+                    android:layout_width="360dp"
+                    android:layout_height="67dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="upbar1"
+                    android:src="@drawable/upbar1" />
+
+
+                <RelativeLayout android:id="@+id/home_logo"
+                    android:layout_marginTop="578dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/home_logo1"
+                        android:layout_width="46dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/home_logo" />
+                    />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/recipe_logo"
+                    android:layout_marginTop="578dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/recipe_logo1"
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/recipe_logo" />
+                    />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout android:id="@+id/mypage_logo"
+                    android:layout_marginTop="578dp"
+                    android:layout_marginStart="270dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/mypage_logo1"
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/mypage_logo" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/yam"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/yam"
+                    android:textColor="@color/ellipse_15_color"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,359 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		untitled
+     *	@date 		1653379695405
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/login_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_login_home_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:id="@+id/_bg__login_home_ek2"
+                    android:layout_width="360dp"
+                    android:layout_height="640dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__login_home_ek2_shape" />
+
+                <ImageView
+                    android:id="@+id/upbar1"
+                    android:layout_width="360dp"
+                    android:layout_height="67dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="-2dp"
+                    android:contentDescription="upbar1"
+                    android:src="@drawable/upbar1" />
+
+                <RelativeLayout android:id="@+id/recommend_food_design1"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <Button
+                        android:id="@+id/share1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="280dp"
+                        android:layout_marginTop="140dp"
+                        android:background="@drawable/share" />
+
+                    <Button
+                        android:id="@+id/bookmark_on1"
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="280dp"
+                        android:layout_marginTop="175dp"
+                        android:background="@drawable/bookmark_on"
+                        />
+
+                    <View
+                        android:id="@+id/recommend_foodpic1"
+                        android:layout_width="318dp"
+                        android:layout_height="240.8dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/recommend_foodpic_shape" />
+
+                    <View
+                        android:id="@+id/food_infobar1"
+                        android:layout_width="317dp"
+                        android:layout_height="71.42dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="169.38dp"
+                        android:background="@drawable/food_infobar_shape" />
+
+                    <TextView
+                        android:id="@+id/food_name1"
+                        android:layout_width="115dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="180dp"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/food_name"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/level1"
+                        android:layout_width="85dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:text="@string/level"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/line_foodinfo1"
+                        android:layout_width="2dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="210dp"
+                        android:contentDescription="line_foodinfo1"
+                        android:src="@drawable/line_foodinfo1" />
+
+                    <TextView
+                        android:id="@+id/minute1"
+                        android:layout_width="85dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:text="@string/minute"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/line_foodinfo2"
+                        android:layout_width="2dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="210dp"
+                        android:layout_marginTop="210dp"
+                        android:contentDescription="line_foodinfo2"
+                        android:src="@drawable/line_foodinfo2" />
+
+                    <TextView
+                        android:id="@+id/calory1"
+                        android:layout_width="85dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:text="@string/calory"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout android:id="@+id/recommend_food_design2"
+                    android:layout_marginTop="350dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <Button
+                        android:id="@+id/share2"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="280dp"
+                        android:layout_marginTop="140dp"
+                        android:background="@drawable/share" />
+
+                    <Button
+                        android:id="@+id/bookmark_on2"
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="280dp"
+                        android:layout_marginTop="175dp"
+                        android:background="@drawable/bookmark_on"
+                        />
+
+                    <View
+                        android:id="@+id/recommend_foodpic2"
+                        android:layout_width="318dp"
+                        android:layout_height="240.8dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/recommend_foodpic_shape" />
+
+                    <View
+                        android:id="@+id/food_infobar2"
+                        android:layout_width="317dp"
+                        android:layout_height="71.42dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="169.38dp"
+                        android:background="@drawable/food_infobar_shape" />
+
+                    <TextView
+                        android:id="@+id/food_name2"
+                        android:layout_width="115dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="180dp"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/food_name"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/level2"
+                        android:layout_width="85dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:text="@string/level"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/line_foodinfo3"
+                        android:layout_width="2dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="210dp"
+                        android:contentDescription="line_foodinfo1"
+                        android:src="@drawable/line_foodinfo1" />
+
+                    <TextView
+                        android:id="@+id/minute2"
+                        android:layout_width="85dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:text="@string/minute"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/line_foodinfo4"
+                        android:layout_width="2dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="210dp"
+                        android:layout_marginTop="210dp"
+                        android:contentDescription="line_foodinfo2"
+                        android:src="@drawable/line_foodinfo2" />
+
+                    <TextView
+                        android:id="@+id/calory2"
+                        android:layout_width="85dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="220dp"
+                        android:layout_marginTop="210dp"
+                        android:gravity="center"
+                        android:text="@string/calory"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/down_bar"
+                    android:layout_width="360dp"
+                    android:layout_height="74dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="568.66dp"
+                    android:contentDescription="down_bar"
+                    android:src="@drawable/down_bar" />
+
+
+                    <RelativeLayout android:id="@+id/home_logo"
+                        android:layout_marginTop="578dp"
+                        android:layout_marginStart="60dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <View
+                            android:id="@+id/home_logo1"
+                            android:layout_width="46dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/home_logo" />
+                        />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout android:id="@+id/recipe_logo"
+                        android:layout_marginTop="578dp"
+                        android:layout_marginStart="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <View
+                            android:id="@+id/recipe_logo1"
+                            android:layout_width="42dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/recipe_logo" />
+                        />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout android:id="@+id/mypage_logo"
+                        android:layout_marginTop="578dp"
+                        android:layout_marginStart="270dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <View
+                            android:id="@+id/mypage_logo1"
+                            android:layout_width="42dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/mypage_logo" />
+
+                    </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/yam"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="@string/yam"
+                    android:textColor="@color/ellipse_15_color"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
